@@ -1,5 +1,5 @@
 .metadata/
 .recommenders/
-Servers/
-RemoteSystemsTempFiles/
 spring_ex01/target/
+RemoteSystemsTempFiles/
+Servers/
