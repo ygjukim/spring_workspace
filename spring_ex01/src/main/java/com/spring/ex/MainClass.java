@@ -6,7 +6,8 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 public class MainClass {
 
 	public static void main(String[] args) {
-		String appCtxPath = "classpath:appContext.xml";
+//		String appCtxPath = "classpath:appContext.xml";
+		String appCtxPath = "classpath:appContext1.xml";	// using property files
 		AbstractApplicationContext ctx = new GenericXmlApplicationContext(appCtxPath);
 		MyCalculator myCalc = ctx.getBean("myCalculator", MyCalculator.class);
 		
