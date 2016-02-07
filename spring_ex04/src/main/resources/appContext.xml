@@ -22,5 +22,6 @@
 	</bean>
 
 	<bean id="studInfo" class="com.spring.ex04.StudentInfo" />
-		
+	
+	<bean id="customEventListener" class="com.spring.ex04.CustomEventListener" />	
 </beans>
